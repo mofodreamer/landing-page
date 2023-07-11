@@ -1,2 +1,2 @@
 # landing-page
-Landing page for Odin-Foundations project
+Landing page for the Odin-Foundations project
