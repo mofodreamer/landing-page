@@ -20,9 +20,11 @@ div {
     padding-right: 80px;
 }
 
+
+
 .header {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     background-color: #1f2937;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -34,7 +36,7 @@ div {
     align-items: center;
     background-color: #1f2937;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 
 .hero-1 {
@@ -42,25 +44,29 @@ div {
     flex: 2
 }
 
-.hero-2 {}
+
 
 .hero-main-text {
     color: #f9faf8;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 40px;
     margin: 0px;
 }
 
-.hero-secondary-text, 
+.hero-secondary-text,
 .menu-items {
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
+.info-header {
+    font-size: 25px;
+    font-weight:900;
+    color: #1f2927;
+    text-align: center;
 }
+
+
 
 .menu-items {
     display: flex;
@@ -70,4 +76,32 @@ div {
 
 .odin {
     width: 400px;
+}
+
+.odin-logo {
+    width: 130px;
+}
+
+.sons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    min-width: 250px;
+    font-size: 13px;
+}
+
+.sons-info {
+    padding-top: 50px;
+}
+
+.sons-info img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.son {
+    flex: 25%;
+    padding: 40px;
 }
