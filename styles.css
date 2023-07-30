@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -5,22 +10,36 @@ body {
 button {
     background-color: #3882fa;
     border-radius: 8px;
-    padding: 10px 30px;
     color: white;
-
+    min-width: 150px;
+    padding: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #e5e7eb
-}
-
-div {
+.header,
+.hero,
+.footer,
+.sons-info,
+.quote {
     padding-left: 80px;
     padding-right: 80px;
 }
 
+.call-to-action .container {
+    background-color: #3882f6;
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f9faf8;
+    padding: 10px;
+}
 
+.footer {
+    background-color: #1f2927;
+    color: #e5e7eb;
+    padding: 10px;
+    text-align: center;
+}
 
 .header {
     display: flex;
@@ -45,7 +64,6 @@ div {
 }
 
 
-
 .hero-main-text {
     color: #f9faf8;
     font-weight: 900;
@@ -66,8 +84,6 @@ div {
     text-align: center;
 }
 
-
-
 .menu-items {
     display: flex;
     align-items: center;
@@ -80,6 +96,29 @@ div {
 
 .odin-logo {
     width: 130px;
+}
+
+.quote {
+    background-color: #e5ebe7;
+    padding: 80px 200px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote .thor-quote {
+    font-size: 16px;
+    text-align:right;
+    font-weight: bold;
+}
+
+.son {
+    flex: 25%;
+    padding: 40px;
 }
 
 .sons {
@@ -101,7 +140,4 @@ div {
     height: 150px;
 }
 
-.son {
-    flex: 25%;
-    padding: 40px;
-}
+
